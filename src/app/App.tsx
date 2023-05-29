@@ -1,11 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import { Counter } from "./components/Counter";
 import "./styles/index.scss";
 import { Link } from "react-router-dom";
 import { Suspense } from "react";
-import { AboutAsync } from "./pages/AboutAsync";
-import { MainAsync } from "./pages/MainAsync";
-import { useTheme } from "./theme/useTheme";
+import { About } from "pages/AboutPage";
+import { Main } from "pages/MainPage";
+import { useTheme } from "app/providers/ThemeProvider";
 
 export const App = () => {
   const [theme, toggleTheme] = useTheme()
@@ -13,14 +12,13 @@ export const App = () => {
   return (
     <div className= {`app ${theme}`}>
       <button onClick={toggleTheme}>click</button>
-      <Counter />
       sdaads
       <Link to="/about">About</Link>
       <Link to="/main">Home</Link>
       <Suspense fallback={<div>sdaas</div>}>
       <Routes>
-        <Route path="/about" element={<AboutAsync/>}/>
-        <Route path="/main" element={<MainAsync />}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/main" element={<Main />}/>
       </Routes>
       </Suspense>
     </div>

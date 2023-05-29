@@ -3,7 +3,9 @@ export type BuildMode = "development" | "production"
 export type BuildPaths = {
   entry: string,
   output: string,
-  html: string
+  html: string,
+  src: string,
+  context: string
 } 
 
 export interface BuildOptions {

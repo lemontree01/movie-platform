@@ -9,6 +9,7 @@ export function generateConfig(options: BuildOptions): webpack.Configuration {
   const { paths, mode, isDev } = options;
   return {
     mode,
+    context: paths.context,
     entry: paths.entry,
     output: {
       filename: "[name].[contenthash].js",
@@ -19,7 +20,7 @@ export function generateConfig(options: BuildOptions): webpack.Configuration {
     module: {
       rules: generateLoaders(options),
     },
-    resolve: generateResolvers(),
+    resolve: generateResolvers(options),
     devtool: isDev ? "inline-source-map" : undefined,
     devServer: isDev ? generateDevServer(options) : undefined,
   };

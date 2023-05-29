@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { LOCAL_STORAGE_THEME_KEY, Theme } from "./types";
-import { ThemeContext } from "./ThemeContext";
+import { LOCAL_STORAGE_THEME_KEY, Theme } from "../../../types/themeTypes";
+import { ThemeContext } from "../../ThemeContext";
 
 export const useTheme = (): [Theme, () => void] => {
   const { theme, setTheme } = useContext(ThemeContext);

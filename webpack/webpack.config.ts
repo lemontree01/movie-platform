@@ -4,12 +4,13 @@ import { generateConfig } from "./generateConfig";
 import { BuildEnv, BuildPaths } from "./types";
 
 export default (env: BuildEnv): Configuration => {
-  const defaultPath = [__dirname, ".."];
 
   const paths: BuildPaths = {
-    entry: path.resolve(...defaultPath, "src", "index.tsx"),
-    output: path.resolve(...defaultPath, "build"),
-    html: path.resolve(...defaultPath, "public", "index.html"),
+    context: path.resolve(__dirname, '..'),
+    entry: path.resolve( "src", "index.tsx"),
+    output: path.resolve("build"),
+    html: path.resolve( "public", "index.html"),
+    src: path.resolve("src")
   };
 
   const mode = env.mode ?? "development";

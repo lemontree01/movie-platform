@@ -1,6 +1,13 @@
 import webpack from "webpack";
-export function generateResolvers(): webpack.ResolveOptions {
+import { BuildOptions } from "./types";
+export function generateResolvers(options: BuildOptions): webpack.ResolveOptions {
   return {
     extensions: [".tsx", ".ts", ".js"],
+    preferAbsolute: true,
+    modules: [options.paths.src, "node_modules"],
+    mainFiles: ['index'],
+    alias: {
+
+    }
   };
 }
