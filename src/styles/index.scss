@@ -1,0 +1,12 @@
+@import "config/reset.scss";
+@import "config/globals.scss";
+@import "themes/dark.scss";
+@import "themes/light.scss";
+
+
+.app {
+  color: var(--main-color);
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font: var(--font-small);
+}
