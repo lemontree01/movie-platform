@@ -1,8 +1,8 @@
-import styles from "./NavBar.module.scss";
-import { AppLink } from "shared/ui/AppLink/AppLink";
+import styles from './NavBar.module.scss'
+import { AppLink } from 'shared/ui/AppLink/AppLink'
 
 interface NavBarProps {
-  classNames?: string;
+  classNames?: string
 }
 
 export const NavBar: React.FC<NavBarProps> = ({ classNames }) => {
@@ -11,5 +11,5 @@ export const NavBar: React.FC<NavBarProps> = ({ classNames }) => {
       <AppLink to="/about">About</AppLink>
       <AppLink to="/">Main</AppLink>
     </div>
-  );
-};
+  )
+}

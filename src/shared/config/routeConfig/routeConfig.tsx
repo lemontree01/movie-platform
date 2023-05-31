@@ -1,32 +1,32 @@
-import { RouteProps } from "react-router-dom";
-import { MainPage } from "pages/MainPage";
-import { AboutPage } from "pages/AboutPage";
+import { type RouteProps } from 'react-router-dom'
+import { MainPage } from 'pages/MainPage'
+import { AboutPage } from 'pages/AboutPage'
 
 export enum Routes {
-  MAIN = "main",
-  ABOUT = "about",
+  MAIN = 'main',
+  ABOUT = 'about',
 }
 
 export const routePaths: Readonly<Record<Routes, string>> = {
-  [Routes.MAIN]: "/",
-  [Routes.ABOUT]: "/about",
-} as const;
+  [Routes.MAIN]: '/',
+  [Routes.ABOUT]: '/about'
+} as const
 
-export type RouteConfiguration = { route: Routes; props: RouteProps };
+export interface RouteConfiguration { route: Routes, props: RouteProps }
 
 export const routeConfiguration: RouteConfiguration[] = [
   {
     route: Routes.MAIN,
     props: {
       path: routePaths.main,
-      element: <MainPage />,
-    },
+      element: <MainPage />
+    }
   },
   {
     route: Routes.ABOUT,
     props: {
       path: routePaths.about,
-      element: <AboutPage />,
-    },
-  },
-];
+      element: <AboutPage />
+    }
+  }
+]
