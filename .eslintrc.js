@@ -4,27 +4,26 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true,
+    jest: true
   },
   settings: {
     react: {
-      version: "detect",
-    },
+      version: "detect"
+    }
   },
   extends: ["plugin:react/recommended", "standard-with-typescript"],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: "./tsconfig.json",
+    project: "./tsconfig.json"
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
     "semi": ['error', 'always'],
-    "react/jsx-filename-extension": [
-      2,
-      { extensions: [".js", ".jsx", ".tsx"] },
-    ],
+    "react/jsx-filename-extension": [2, {
+      extensions: [".js", ".jsx", ".tsx"]
+    }],
     "import/prefer-default-export": "off",
     "import/no-unresolved": "off",
     "no-unused-vars": "warn",
@@ -37,14 +36,10 @@ module.exports = {
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/no-floating-promises": "off"
   },
-  overrides: [
-    {
-      files: ["*.ts", "*.mts", "*.cts"],
-      rules: {
-        "@typescript-eslint/explicit-function-return-type": "error",
-      },
-    },
-    
-  ],
-  
+  overrides: [{
+    files: ["*.ts", "*.mts", "*.cts"],
+    rules: {
+      "@typescript-eslint/explicit-function-return-type": "error"
+    }
+  }]
 };
