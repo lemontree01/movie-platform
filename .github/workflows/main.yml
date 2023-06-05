@@ -1,0 +1,32 @@
+name: main
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 17.x ]
+
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Installing ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Installing Yarn
+        run: npm install -g yarn
+      - name: install modules
+        run: yarn install    
+      - name: build prod project
+        run: yarn build:prod
+      - name: typescript linter
+        run: yarn lint:ts
+      - name: scss linter
+        run: yarn lint:scss
+      - name: unit testing
+        run: yarn test:unit
