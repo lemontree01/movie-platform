@@ -7,7 +7,7 @@ import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 export function generatePlugins (
   options: BuildOptions
 ): webpack.WebpackPluginInstance[] {
-  return [
+  const plugins = [
     new HtmlWebpackPlugin({
       template: options.paths.html
     }),
@@ -16,10 +16,16 @@ export function generatePlugins (
       filename: 'styles/[name].[contenthash:8].css',
       chunkFilename: 'styles/[name].[contenthash:8].css'
     }),
-    new webpack.DefinePlugin({ IS_DEV: JSON.stringify(options.isDev) }),
-    new webpack.HotModuleReplacementPlugin(),
-    new BundleAnalyzerPlugin({
-      openAnalyzer: false
-    })
+    new webpack.DefinePlugin({ IS_DEV: JSON.stringify(options.isDev) })
   ];
+  if (options.isDev) {
+    plugins.push(new webpack.HotModuleReplacementPlugin());
+    plugins.push(
+      new BundleAnalyzerPlugin({
+        openAnalyzer: false
+      })
+    );
+  }
+
+  return plugins;
 }
