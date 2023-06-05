@@ -1,13 +1,14 @@
-import './styles/index.scss'
-import { useTheme } from 'app/providers/ThemeProvider'
-import { AppRouter } from './providers/Router/ui/AppRouter'
-import { NavBar } from 'widgets/NavBar'
-import { ThemeSwitcher } from 'widgets/ThemeSwitcher'
-import { Suspense } from 'react'
-import { LanguageSwitcher } from 'widgets/LanguageSwitcher'
+import './styles/index.scss';
+import { useTheme } from 'app/providers/ThemeProvider';
+import { AppRouter } from './providers/Router/ui/AppRouter';
+import { NavBar } from 'widgets/NavBar';
+import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
+import { Suspense } from 'react';
+import { LanguageSwitcher } from 'widgets/LanguageSwitcher';
+import { Sidebar } from 'widgets/Sidebar';
 
 export const App = () => {
-  const [theme] = useTheme()
+  const [theme] = useTheme();
 
   return (
     <div className={`app ${theme}`}>
@@ -15,8 +16,9 @@ export const App = () => {
         <LanguageSwitcher/>
         <ThemeSwitcher />
         <NavBar />
+        <Sidebar />
         <AppRouter />
       </Suspense>
     </div>
-  )
-}
+  );
+};

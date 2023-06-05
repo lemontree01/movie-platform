@@ -1,5 +1,5 @@
-import type webpack from 'webpack'
-import { type BuildOptions } from './types'
+import type webpack from 'webpack';
+import { type BuildOptions } from './types';
 export function generateResolvers (options: BuildOptions): webpack.ResolveOptions {
   return {
     extensions: ['.tsx', '.ts', '.js'],
@@ -9,5 +9,5 @@ export function generateResolvers (options: BuildOptions): webpack.ResolveOption
     alias: {
 
     }
-  }
+  };
 }

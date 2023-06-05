@@ -7,17 +7,26 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "typeRoots": ["./app/types/global.d.ts"],
     "baseUrl": ".",
     "paths": {
       "*": ["./src/*"]
-    }
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+ /*
+     "typeRoots": [
+      "./app/types/global.d.ts",
+      "./types",
+      "./node_modules/@types"
+    ],
+    "types": [ "jest", "node"],
+ */
   },
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+
 }

@@ -1,3 +1,6 @@
 {
-  "w1": "hello"
+  "w1": "hello",
+  "not-found": "Page not found",
+  "page-error-header": "Error ocurred",
+  "page-error-button": "Refresh"
 }

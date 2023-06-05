@@ -1,7 +1,11 @@
+import { generateArray } from 'shared/lib/generateArray/generateArray';
+
 const Main = () => {
   return (
-    <div>Main asdads</div>
-  )
-}
+    <div>
+      {generateArray(5, (n: number) => <div key={n}>today is {n}</div>)}
+    </div>
+  );
+};
 
-export default Main
+export default Main;

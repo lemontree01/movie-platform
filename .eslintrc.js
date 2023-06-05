@@ -1,8 +1,10 @@
 module.exports = {
+  ignorePatterns: ["**/.eslintrc.js"],
   parser: "@typescript-eslint/parser",
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   settings: {
     react: {
@@ -18,6 +20,7 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
+    "semi": ['error', 'always'],
     "react/jsx-filename-extension": [
       2,
       { extensions: [".js", ".jsx", ".tsx"] },
@@ -30,7 +33,9 @@ module.exports = {
     "@typescript-eslint/prefer-nullish-coalescing": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/no-floating-promises": "off"
   },
   overrides: [
     {
@@ -39,5 +44,7 @@ module.exports = {
         "@typescript-eslint/explicit-function-return-type": "error",
       },
     },
+    
   ],
+  
 };

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f2e548a-7124-44b8-95fe-29a392c606d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/ru/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ru/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/Router/ui/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/Router/ui/AppRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/types/themeTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/themeTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutAsync.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutAsync.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainAsync.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainAsync.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/ui/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/LanguageSwitcher/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/LanguageSwitcher/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/LanguageSwitcher/ui/LanguageSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/LanguageSwitcher/ui/LanguageSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/generateConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/generateConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/generateDevServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/generateDevServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/generateLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/generateLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/generatePlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/generatePlugins.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/generateResolvers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/generateResolvers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2QhdC0ERNGj4Ah3zWh5r6GoTt58" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/webdev/js-test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f2e548a-7124-44b8-95fe-29a392c606d7" name="Changes" comment="" />
+      <created>1685809619156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685809619156</updated>
+      <workItem from="1685809620691" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
