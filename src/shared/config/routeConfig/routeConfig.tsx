@@ -15,7 +15,7 @@ export const routePaths: Readonly<Record<Routes, string>> = {
   [Routes.NOT_FOUND]: '*'
 } as const;
 
-export interface RouteConfiguration { route: Routes, props: RouteProps }
+export interface RouteConfiguration { route: Routes; props: RouteProps }
 
 export const routeConfiguration: RouteConfiguration[] = [
   {

@@ -2,7 +2,7 @@ import { Link, type LinkProps } from 'react-router-dom';
 import styles from './AppLink.module.scss';
 
 interface AppLinkProps extends LinkProps {
-  classNames?: string
+  classNames?: string;
 }
 
 export const AppLink: React.FC<AppLinkProps> = ({

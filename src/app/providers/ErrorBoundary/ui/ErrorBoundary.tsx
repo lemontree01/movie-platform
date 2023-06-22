@@ -3,7 +3,7 @@ import { PageError } from 'widgets/PageError/ui/PageError';
 
 export class ErrorBoundary extends Component<
 {
-  children: ReactNode
+  children: ReactNode;
 },
 { hasError: boolean }
 > {

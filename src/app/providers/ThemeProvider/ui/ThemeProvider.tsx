@@ -3,7 +3,7 @@ import { ThemeContext } from '../lib/ThemeContext';
 import { LOCAL_STORAGE_THEME_KEY, type Theme } from '../../../types/themeTypes';
 
 interface ThemeProviderProps {
-  children: ReactNode
+  children: ReactNode;
 }
 
 export const ThemeProvider: FC<ThemeProviderProps> = ({ children }) => {

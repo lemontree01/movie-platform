@@ -2,7 +2,7 @@ import styles from './NavBar.module.scss';
 import { AppLink } from 'shared/components/AppLink/AppLink';
 
 interface NavBarProps {
-  classNames?: string
+  classNames?: string;
 }
 
 export const NavBar: React.FC<NavBarProps> = ({ classNames }) => {

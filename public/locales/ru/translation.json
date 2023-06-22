@@ -2,5 +2,6 @@
   "w1": "privet",
   "not-found": "Страница не найдена",
   "page-error-header": "Произошла ошибка",
-  "page-error-button": "Обновить"
+  "page-error-button": "Обновить",
+  "toggle": "Perekluchit'"
 }

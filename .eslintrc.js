@@ -18,7 +18,7 @@ module.exports = {
     sourceType: "module",
     project: "./tsconfig.json"
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint", "react-hooks"],
   rules: {
     "semi": ['error', 'always'],
     "react/jsx-filename-extension": [2, {
@@ -34,7 +34,22 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "react/prop-types": "off",
     "@typescript-eslint/semi": "off",
-    "@typescript-eslint/no-floating-promises": "off"
+    "@typescript-eslint/no-floating-promises": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ]
   },
   overrides: [{
     files: ["*.ts", "*.mts", "*.cts"],
